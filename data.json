@@ -1,0 +1,226 @@
+{
+  "Entity": "BASIS Educational Ventures",
+  "Status": "Private",
+  "Type": "Holding company",
+  "CEO": "Michael Block",
+  "children": [
+    {
+      "Entity": "BASIS Global",
+      "Type": "Management company",
+      "Director": "Ian Block",
+      "children": [
+        {
+          "School": "BASIS Shenzhen",
+          "Type": "International",
+          "City": "Shenzhen",
+          "Province": "Guangdong",
+          "Country": "China",
+          "Head of school": "Jeff Davis"
+        }
+      ]
+    },
+    {
+      "Entity": "BASIS Independent",
+      "Type": "Management company",
+      "Director": "Michael and Olga Block",
+      "children": [
+        {
+          "School": "BASIS Indpendent Fremont",
+          "Type": "Private",
+          "City": "Fremont",
+          "State": "California",
+          "Head of school": "Ashley Leyba"
+        },
+        {
+          "School": "BASIS Indpendent Brooklyn",
+          "Type": "Private",
+          "City": "Brooklyn",
+          "State": "New York",
+          "Head of school": "Hadley Ruggles"
+        },
+        {
+          "School": "BASIS Indpendent Manhattan",
+          "Type": "Private",
+          "City": "Manhattan",
+          "State": "New York",
+          "Head of school": "Jesse Rizzo"
+        },
+        {
+          "School": "BASIS Indpendent McLean",
+          "Type": "Private",
+          "City": "McLean",
+          "State": "Virginia",
+          "Head of school": "Sean Aiken"
+        },
+        {
+          "School": "BASIS Indpendent Silicon Valley",
+          "Type": "Private",
+          "City": "San Jose",
+          "State": "California",
+          "Head of school": "Tobey Walker"
+        }
+      ]
+    },
+    {
+      "Entity": "BASIS.ed",
+      "Status": "Private",
+      "Type": "Education management organization",
+      "CEO": "Peter Bezanson",
+      "children": [
+        {
+          "Entity": "BASIS Schools Inc.",
+          "Status": "Nonprofit",
+          "Type": "Charter holder",
+          "State": "AZ",
+          "Director": "Daniel Nienhauser",
+          "children": [
+            {
+              "School": "BASIS Tucson North",
+              "Type": "Charter",
+              "City": "Tucson",
+              "Head of school": "Erin Paradis"
+            },
+            {
+              "School": "BASIS Tucson Primary",
+              "Type": "Charter",
+              "City": "Tucson",
+              "Head of school": "Roberto Ramirez"
+            },
+            {
+              "School": "BASIS Oro Valley",
+              "Type": "Charter",
+              "City": "Oro Valley",
+              "Head of school": "Elizabeth Thies"
+            },
+            {
+              "School": "BASIS Ahwatukee",
+              "Type": "Charter",
+              "City": "Ahwatukee",
+              "Head of school": "David King"
+            },
+            {
+              "School": "BASIS Chandler",
+              "Type": "Charter",
+              "City": "Chandler",
+              "Head of school": "Stephanie Terrell"
+            },
+            {
+              "School": "BASIS Chandler Primary North",
+              "Type": "Charter",
+              "City": "Chandler",
+              "Head of school": "Dania Gold"
+            },
+            {
+              "School": "BASIS Chandler Primary South",
+              "Type": "Charter",
+              "City": "Chandler",
+              "Head of school": "Rosalind Thompson"
+            },
+            {
+              "School": "BASIS Flagstaff",
+              "Type": "Charter",
+              "City": "Flagstaff",
+              "Head of school": "Sean Clark"
+            },
+            {
+              "School": "BASIS Goodyear",
+              "Type": "Charter",
+              "City": "Goodyear",
+              "Head of school": "Robert Bowley"
+            },
+            {
+              "School": "BASIS Goodyear Primary",
+              "Type": "Charter",
+              "City": "Goodyear",
+              "Head of school": "Robert Bowley"
+            },
+            {
+              "School": "BASIS Mesa",
+              "Type": "Charter",
+              "City": "Mesa",
+              "Head of school": "Kristen Ramos"
+            },
+            {
+              "School": "BASIS Oro Valley Primary",
+              "Type": "Charter",
+              "City": "Oro Valley",
+              "Head of school": "Elizabeth Thies"
+            },
+            {
+              "School": "BASIS Peoria",
+              "Type": "Charter",
+              "City": "Peoria",
+              "Head of school": "Mark Allen"
+            },
+            {
+              "School": "BASIS Phoenix",
+              "Type": "Charter",
+              "City": "Phoenix",
+              "Head of school": "Steven Villafuerte"
+            },
+            {
+              "School": "BASIS Pheonix Central",
+              "Type": "Charter",
+              "City": "Phoenix",
+              "Head of school": "Sharon Elisco"
+            },
+            {
+              "School": "BASIS Prescott",
+              "Type": "Charter",
+              "City": "Prescott",
+              "Head of school": "Becky Ratliff"
+            },
+            {
+              "School": "BASIS Scottsdale",
+              "Type": "Charter",
+              "City": "Scottsdale",
+              "Head of school": "Kristen Jordison"
+            },
+            {
+              "School": "BASIS Scottsdale Primary",
+              "Type": "Charter",
+              "City": "Scottsdale",
+              "Head of school": "Elizabeth McConaghy"
+            }
+          ]
+        },
+        {
+          "Entity": "BDC A Public Charter School",
+          "Status": "Nonprofit",
+          "Type": "Charter holder",
+          "State": "District of Columbia",
+          "Director": "Cameron Louis",
+          "children": [
+            {
+              "School": "BASIS DC",
+              "Type": "Charter",
+              "City": "Washington D.C.",
+              "Head of School": "Tim Eyerman"
+            }
+          ]
+        },
+        {
+          "Entity": "BTX Schools Inc.",
+          "Status": "Nonprofit",
+          "Type": "Charter holder",
+          "State": "Texas",
+          "Director": "Shawnna Bolick",
+          "children": [
+            {
+              "School": "BASIS San Antonio Medical Center",
+              "Type": "Charter",
+              "City": "San Antonio",
+              "Head of School": "David Hubalik"
+            },
+            {
+              "School": "BASIS San Antonio North Central",
+              "Type": "Charter",
+              "City": "San Antonio",
+              "Head of School": "Abigail Hasberry"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
