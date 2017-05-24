@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<style>
+
+div.dot {
+  position: absolute;
+  top: 476px;
+  text-align: center;
+  text-color: #004;
+  width: 960px;
+}
+h1 {
+  position: absolute;
+  top: 500px;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-align: center;
+  width: 960px;
+}
+</style>
+<div class="dot">&bull;</div>
+<h1></h1>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/queue.v1.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script>
+var width = 960, height = 960;
+
+var projection = d3.geo.orthographic()
+  .translate([width / 2, height / 2])
+  .scale(width / 2 - 20)
+  .clipAngle(90)
+  .precision(0.6);
+
+var canvas = d3.select("body").append("canvas")
+  .attr("width", width)
+  .attr("height", height);
+
+var c = canvas.node().getContext("2d");
+
+var path = d3.geo.path()
+  .projection(projection)
+  .context(c);
+
+var title = d3.select("h1");
+
+queue()
+  .defer(d3.json, "world-110m.json")
+  .defer(d3.json, "cities.json")
+  .await(ready);
+
+function ready(error, world, cities) {
+  if (error) throw error;
+
+  var globe = {type: "Sphere"},
+    land = topojson.feature(world, world.objects.land),
+    countries = topojson.feature(world, world.objects.countries).features,
+    borders = topojson.mesh(world, world.objects.countries, function(a, b) {
+      return a !== b; }),
+    i = -1,
+    n = cities.length;
+
+  (function transition() {
+    d3.transition()
+      .duration(1250)
+      .each("start", function() {
+        title.text(cities[i = (i + 1) % n].name);
+      })
+      .tween("rotate", function() {
+        var lon = cities[i].lon, lat = cities[i].lat
+          r = d3.interpolate(projection.rotate(), [-lat, -lon]);
+        return function(t) {
+          projection.rotate(r(t));
+          c.clearRect(0, 0, width, height);
+          // water color
+          c.fillStyle = "#ccf", c.beginPath(), path(globe), c.fill();
+          // land color
+          c.fillStyle = "#ca7", c.beginPath(), path(land), c.fill();
+          // border color
+          c.strokeStyle = "#000", c.lineWidth = 0.5, c.beginPath(),
+          path(borders), c.stroke();
+          // edge of globe color
+          c.strokeStyle = "#000", c.lineWidth = 2, c.beginPath(), path(globe),
+          c.stroke();
+        };
+      })
+      .transition()
+        .each("end", transition);
+  })();
+}
+
+d3.select(self.frameElement).style("height", height + "px");
+</script>
