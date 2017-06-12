@@ -182,6 +182,18 @@
               "City": "Scottsdale",
               "Head of school": "Elizabeth McConaghy"
             }
+            {
+              "School": "BASIS Peoria Primary",
+              "Type": "Charter",
+              "City": "Peoria",
+              "Head of school": "Melissa Fields-Koerper"
+            }
+            {
+              "School": "BASIS Phoenix South Primary",
+              "Type": "Charter",
+              "City": "Phoenix",
+              "Head of school": "Brian Jones"
+            }
           ]
         },
         {
@@ -217,6 +229,12 @@
               "Type": "Charter",
               "City": "San Antonio",
               "Head of School": "Abigail Hasberry"
+            }
+            {
+              "School": "BASIS Castle Hills",
+              "Type": "Charter".
+              "City": "Castle Hills",
+              "Head of School": "TBD"
             }
           ]
         }
