@@ -1,0 +1,302 @@
+[
+  {
+    "school_name": "BASIS Tucson North",
+    "school_city": "Tucson",
+    "school_country": "USA",
+    "school_type": "Charter",
+    "school_address": "5740 E. River Road Tucson, AZ 85750",
+    "open_year": 2012,
+    "lon": -110.871329,
+    "lat": 32.273513
+  },
+  {
+    "school_name": "BASIS Tucson Primary",
+    "school_city": "Tucson",
+    "school_country": "USA",
+    "school_type": "Charter",
+    "school_address": "3825 E. 2nd St. Tucson, AZ 85716",
+    "open_year": 1998,
+    "lon": -110.911012,
+    "lat": 32.234388
+  },
+  {
+    "school_name": "BASIS Scottsdale",
+    "school_city": "Scottsdale",
+    "school_country": "USA",
+    "school_type": "Charter",
+    "school_address": "10400 N. 128th St. Scottsdale, AZ 85259",
+    "open_year": 2003,
+    "lon": -111.804749,
+    "lat": 33.580661
+  },
+  {
+    "school_name": "BASIS Oro Valley",
+    "school_city": "Oro Valley",
+    "school_country": "USA",
+    "school_type": "Charter",
+    "school_address": "11155 N. Oracle Road Oro Valley, AZ 85737",
+    "open_year": 2010,
+    "lon": -110.943596,
+    "lat": 32.408435
+  },
+  {
+    "school_name": "BASIS Chandler",
+    "school_city": "Chandler",
+    "school_country": "USA",
+    "school_type": "Charter",
+    "school_address": "4825 S, Arizona Ave. Chandler, AZ 85248",
+    "open_year": 2011,
+    "lon": -111.841153,
+    "lat": 33.235862
+  },
+  {
+    "school_name": "BASIS Flagstaff",
+    "school_city": "Flagstaff",
+    "school_country": "USA",
+    "school_type": "Charter",
+    "school_address": "1700 N. Gemini Dr. Flagstaff, AZ 86001",
+    "open_year": 2011,
+    "lon": -111.633802,
+    "lat": 35.208303
+  },
+  {
+    "school_name": "BASIS Peoria",
+    "school_city": "Peoria",
+    "school_country": "USA",
+    "school_type": "Charter",
+    "school_address": "9902 W. Yearling Road Peoria, AZ 85383",
+    "open_year": 2011,
+    "lon": -112.271804,
+    "lat": 33.717842
+  },
+  {
+    "school_name": "BASIS Peoria Primary",
+    "school_city": "Peoria",
+    "school_country": "USA",
+    "school_type": "Charter",
+    "school_address": "25950 N. Lake Pleasant Peoria, AZ 85383",
+    "open_year": 2017,
+    "lon": -112.269654,
+    "lat": 33.719155
+  },
+  {
+    "school_name": "BASIS Washington D.C.",
+    "school_city": "Washington D.C.",
+    "school_country": "USA",
+    "school_type": "Charter",
+    "school_address": "410 8th St. NW Washington D.C., 20004",
+    "open_year": 2012,
+    "lon": -77.022987,
+    "lat": 38.894931
+  },
+  {
+    "school_name": "BASIS Phoenix",
+    "school_city": "Phoenix",
+    "school_country": "USA",
+    "school_type": "Charter",
+    "school_address": "11850 N. 32nd St. Phoenix, AZ 85028",
+    "open_year": 2012,
+    "lon": -112.013195,
+    "lat": 33.59378
+  },
+  {
+    "school_name": "BASIS Ahwatukee",
+    "school_city": "Ahwatukee",
+    "school_country": "USA",
+    "school_type": "Charter",
+    "school_address": "10210 S. 50th Pl. Phoenix, AZ 85044",
+    "open_year": 2013,
+    "lon": -111.974758,
+    "lat": 33.353808
+  },
+  {
+    "school_name": "BASIS Mesa",
+    "school_city": "Mesa",
+    "school_country": "USA",
+    "school_type": "Charter",
+    "school_address": "5010 S. Eastmark Pky. Mesa, AZ 85212",
+    "open_year": 2013,
+    "lon": -111.615379,
+    "lat": 33.325371
+  },
+  {
+    "school_name": "BASIS San Antonio Primary Medical Center",
+    "school_city": "San Antonio",
+    "school_country": "USA",
+    "school_type": "Charter",
+    "school_address": "8519 Floyd Curl Dr. San Antonio, TX 78240",
+    "open_year": 2013,
+    "lon": -98.589653,
+    "lat": 29.520989
+  },
+  {
+    "school_name": "BASIS Phoenix Central",
+    "school_city": "Phoenix",
+    "school_country": "USA",
+    "school_type": "Charter",
+    "school_address": "201 E. Indianola Ave. Phoeniz, AZ 85012",
+    "open_year": 2014,
+    "lon": -112.071002,
+    "lat": 33.492313
+  },
+  {
+    "school_name": "BASIS Oro Valley Primary",
+    "school_city": "Oro Valley",
+    "school_country": "USA",
+    "school_type": "Charter",
+    "school_address": "11129 N. Oracle Road Oro Valley, AZ 85737",
+    "open_year": 2014,
+    "lon": -110.944396,
+    "lat": 32.407945
+  },
+  {
+    "school_name": "BASIS San Antonio Primary North Central",
+    "school_city": "San Antonio",
+    "school_country": "USA",
+    "school_type": "Charter",
+    "school_address": "318 E. Ramsey Road San Antonio, TX 78216",
+    "open_year": 2014,
+    "lon": -98.490596,
+    "lat": 29.527484
+  },
+  {
+    "school_name": "BASIS Brooklyn",
+    "school_city": "Brooklyn",
+    "school_country": "USA",
+    "school_type": "Private",
+    "school_address": "556 Columbia St. Brooklyn, NY 11231",
+    "open_year": 2014,
+    "lon": -74.008512,
+    "lat": 40.673005
+  },
+  {
+    "school_name": "BASIS Silicon Valley",
+    "school_city": "San Jose",
+    "school_country": "USA",
+    "school_type": "Private",
+    "school_address": "1290 Parkmoor Ave. San Jose, CA 95126",
+    "open_year": 2014,
+    "lon": -121.91003,
+    "lat": 37.316673
+  },
+  {
+    "school_name": "BASIS Goodyear",
+    "school_city": "Goodyear",
+    "school_country": "USA",
+    "school_type": "Charter",
+    "school_address": "15800 W. Sherman St. Goodyear, AZ 85338",
+    "open_year": 2015,
+    "lon": -112.433207,
+    "lat": 33.439331
+  },
+  {
+    "school_name": "BASIS Goodyear Primary",
+    "school_city": "Goodyear",
+    "school_country": "USA",
+    "school_type": "Charter",
+    "school_address": "15800 W. Sherman St. Goodyear, AZ 85338",
+    "open_year": 2015,
+    "lon": -112.433207,
+    "lat": 33.439331
+  },
+  {
+    "school_name": "BASIS Chandler Primary South",
+    "school_city": "Chandler",
+    "school_country": "USA",
+    "school_type": "Charter",
+    "school_address": "204 W. Chandler Heights Road Chandler, AZ 85248",
+    "open_year": 2015,
+    "lon": -111.843432,
+    "lat": 33.233122
+  },
+  {
+    "school_name": "BASIS Scottsdale Primary",
+    "school_city": "Scottsdale",
+    "school_country": "USA",
+    "school_type": "Charter",
+    "school_address": "11440 N. 136th St. Scottsdale, AZ 85259",
+    "open_year": 2015,
+    "lon": -111.787465,
+    "lat": 33.590201
+  },
+  {
+    "school_name": "BASIS Chandler Primary North",
+    "school_city": "Chandler",
+    "school_country": "USA",
+    "school_type": "Charter",
+    "school_address": "1800 E. Chandler Blvd. Chandler, AZ 85225",
+    "open_year": 2016,
+    "lon": -111.810613,
+    "lat": 33.30647
+  },
+  {
+    "school_name": "BASIS Fremont",
+    "school_city": "Fremont",
+    "school_country": "USA",
+    "school_type": "Private",
+    "school_address": "3300 Kearney St. Fremont, CA 94538",
+    "open_year": 2016,
+    "lon": -121.975565,
+    "lat": 37.548041
+  },
+  {
+    "school_name": "BASIS McLean",
+    "school_city": "McLean",
+    "school_country": "USA",
+    "school_type": "Private",
+    "school_address": "8000 Jones Branch Dr. McLean, VA 22102",
+    "open_year": 2016,
+    "lon": -77.222852,
+    "lat": 38.931398
+  },
+  {
+    "school_name": "BASIS Shenzhen",
+    "school_city": "Shenzhen",
+    "school_country": "China",
+    "school_type": "Charter",
+    "school_address": "Tower C. Wanlian Building",
+    "open_year": 2015,
+    "lon": 113.9150077,
+    "lat": 22.4918419
+  },
+  {
+    "school_name": "BASIS Phoenix South Primary",
+    "school_city": "Phoenix",
+    "school_country": "USA",
+    "school_type": "Charter",
+    "school_address": "5700 S. 19th Ave. Phoenix, AZ 85041",
+    "open_year": 2017,
+    "lon": -112.099143,
+    "lat": 33.385575
+  },
+  {
+    "school_name": "BASIS Manhattan",
+    "school_city": "New York City",
+    "school_country": "USA",
+    "school_type": "Private",
+    "school_address": "795 Columbus Ave, New York, NY 10025",
+    "open_year": 2017,
+    "lon": -73.966326,
+    "lat": 40.794501
+  },
+  {
+    "school_name": "BASIS Castle Hills",
+    "school_city": "Castle Hills",
+    "school_country": "USA",
+    "school_type": "Charter",
+    "school_address": "115 S. Winston Ln. Castle Hills, TX 78213",
+    "open_year": 2017,
+    "lon": -98.526842,
+    "lat": 29.534991
+  },
+  {
+    "school_name": "BASIS Prescott",
+    "school_city": "Prescott",
+    "school_country": "USA",
+    "school_type": "Charter",
+    "school_address": "1901 Prescott Lakes Pky. Prescott, AZ 86301",
+    "open_year": 2014,
+    "lon": -112.432249,
+    "lat": 34.5898
+  }
+]
